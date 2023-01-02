@@ -1,0 +1,24 @@
+
+
+
+cloudPct2.innerHTML = response.cloud_pct
+temp22.innerHTML = response.temp
+feelsLike2.innerHTML = response.feels_like
+humidity22.innerHTML = response.humidity
+minTemp2.innerHTML = response.min_temp
+maxTemp2.innerHTML = response.max_temp
+windSpeed22.innerHTML = response.wind_speed ,
+windDegree22.innerHTML = response.wind_degrees
+sunrise2.innerHTML = response.sunrise
+sunset2.innerHTML = response.sunset
+
+<span id="cloudPct2"></span></td>
+                    <td><span id="feelsLike2"></span></td>
+                    <td><span id="humidity22"></span></td>
+                    <td><span id="maxTemp2"></span></td>
+                    <td><span id="minTemp2"></span></td>
+                    <td><span id="sunrise2"></span></td>
+                    <td><span id="sunset2"></span></td>
+                    <td><span id="temp22"></span></td>
+                    <td><span id="windSpeed22"></span></td>
+                    <td><span id="windDegree22"></span>
